@@ -16,8 +16,6 @@
 
 ## About The Project
 
-**This project is based on [Tiktok-uploader](https://github.com/MiniGlome/Tiktok-uploader.git).**
-
 **If you found it helpful, please give me a little star, TKS!**
 
 This project is a Python3 script that allows you to automatically upload and schedule TikTok videos. With this script, you can automate the process of uploading videos to TikTok, allowing you to save time and focus on creating content.
@@ -87,9 +85,20 @@ This command will publish the video `my_video.mp4` as `MY SUPER TITLE #Funny #Jo
 ```sh
 python3 ./TikTokUploader/uploader.py -i 7a9f3c5d8f6e4b2a1c9d8e7f6a5b4c3d -p my_video.mp4 -t "MY SUPER TITLE" --tags Funny Joke Fyp --users amazing
 ```
-#### TODO
-- [x] The JS algorithm simulation in Python
+#### Extendtion
+You can achieve various sophisticated automation operations through this plugin.
 
-## <a href="https://bmc.link/gugezhangyK" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+For example: automatically retrieve and publish user videos from third-party platforms (YouTube, Douyin) or local videos.
+
+For any other ideas, feel free to contact me via [Telegram](https://t.me/bird_biubiubiu).
+
+## <a href="https://bmc.link/gugezhangyK" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" style="height: 24px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 ### Note
  <b>The upload api domain is different from different country. Sometimes, if you upload fail,you may replace all the domain (us.tiktok) to wwww.tikok. you can open the website network pan to find the correct domain.</b>
+## Disclaimer
+1. This application is an open-source project intended for learning and research purposes.
+2. The author assumes no responsibility for any direct or indirect losses incurred through the use of this application.
+3. When using this application, it is essential to comply with the laws and regulations of your country or region and refrain from any illegal activities.
+
+By using this application, you agree to and accept all the terms and conditions of this disclaimer. If you do not agree with these terms, please refrain from using this application.
+
